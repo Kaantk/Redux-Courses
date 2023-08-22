@@ -1,0 +1,50 @@
+#card {
+    border: 1px solid rgb(190, 190, 190);
+    width: 352px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 380px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#card img {
+    width: 350px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-bottom: 0.5em;
+}
+
+h4 {
+    margin: 0.75em 0em 2em 0em;
+}
+
+#card-btn {
+    display: flex;
+    align-items: center;
+}
+
+#card-btn button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#card-btn p {
+    padding-bottom: 5px;
+}
+
+#card #detele-btn {
+    margin-left: auto;
+    background-color: #ff5a5a;
+    color: white;
+    font-weight: 500;
+    padding: 0.25em 1em;
+    border-radius: 12px;
+    margin-right: 1em;
+    cursor: pointer;
+    border : none;
+    outline: none;
+}
